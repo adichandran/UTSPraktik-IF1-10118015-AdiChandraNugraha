@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        android:background="@drawable/btn_gray">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center"
+            android:src="@drawable/rectangle"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/simpan"/>
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/gray800"
+            android:gravity="center"
+            android:text="Berhasil Disimpan"
+            android:fontFamily="@font/roboto_bold"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_below="@id/info"
+            android:layout_width="242dp"
+            android:layout_height="54dp"
+            android:layout_gravity="center"
+            android:text="Terima kasih, laporan Anda membantu kami dalam melakukan penanganan kasus secara tepat."
+            android:textColor="@color/gray800"
+            android:fontFamily="@font/roboto"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="32dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selanjutnya"
+                android:onClick="btnselanjutnya"
+                android:background="@drawable/btn_green"
+                android:fontFamily="@font/roboto_bold"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
