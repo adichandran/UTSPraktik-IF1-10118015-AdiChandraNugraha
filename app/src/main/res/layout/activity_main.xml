@@ -131,13 +131,11 @@
                     android:textSize="12sp"/>
 
                 <EditText
-                    android:id="@+id/editTextDate"
+                    android:id="@+id/edtDate"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/edit_text"
                     android:drawableEnd="@drawable/ic_baseline_calendar_today_24"
-                    android:ems="10"
-                    android:inputType="date"
                     android:hint="Pilih Tanggal"/>
 
             </LinearLayout>
@@ -242,10 +240,10 @@
                 android:layout_marginBottom="32dp">
 
                 <Button
+                    android:id="@+id/selanjutnya"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Selanjutnya"
-                    android:onClick="btnselanjutnya"
                     android:background="@drawable/btn_green"
                     android:fontFamily="@font/roboto_bold"
                     android:textSize="14sp"
