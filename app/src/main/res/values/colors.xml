@@ -12,6 +12,7 @@
     <color name="green">#16A75C</color>
     <color name="yellow500">#FFF9E1</color>
     <color name="gray800">#424242</color>
+    <color name="gray200">#EEEEEE</color>
     <color name="gray50">#FAFAFA</color>
 
 </resources>
